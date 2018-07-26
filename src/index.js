@@ -14,10 +14,6 @@ const BUTCHER_PRODUCTS = [
   }  
 
 export class Products extends Component {
-  products = []
-  for (var product in BUTCHER_PRODUCTS) {
-      products.push(<li>{BUTCHER_PRODUCTS[product]}</li>);
-  }  
   render() {
     return products
   }
