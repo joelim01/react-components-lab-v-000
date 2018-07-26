@@ -8,11 +8,18 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ]
 
-const products = [] 
-
-for (var product in BUTCHER_PRODUCTS) {
-    products.push(<li>{BUTCHER_PRODUCTS[product]}</li>);
+export class Products extends Component {
+  render() {
+    return(
+    )
+  }
+  products = []
+  for (var product in BUTCHER_PRODUCTS) {
+      products.push(<li>{BUTCHER_PRODUCTS[product]}</li>);
+  }  
 }
+
+
 
 // Define these exported classes
 export class OlderCoaster extends Component {
