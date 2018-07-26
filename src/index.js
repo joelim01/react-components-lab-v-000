@@ -8,9 +8,9 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ]
 
- const products = []
+ var products = []
   for (var product in BUTCHER_PRODUCTS) {
-      products.push(<li>{BUTCHER_PRODUCTS[product]}</li>);
+    products.push(<li>{BUTCHER_PRODUCTS[product]}</li>);
   }  
 
 export class Products extends Component {
