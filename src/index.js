@@ -11,7 +11,7 @@ const BUTCHER_PRODUCTS = [
 const products = [] 
 
 for (var product in BUTCHER_PRODUCTS) {
-    products << <li>{BUTCHER_PRODUCTS[product]}</li>
+    products.push(<li>{BUTCHER_PRODUCTS[product]}</li>);
 }
 
 // Define these exported classes
