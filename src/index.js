@@ -51,8 +51,11 @@ export class InFrontOfYou extends Component {
 export class ButcherShop extends Component {
   render() {
     return (
-      <div>
-        { products }
+      <div class="butcher-shop">
+        <p>Hello! We have the following products for sale today:</p>
+        <ul>
+          { products }
+          <ul>
       </div>
     )
   }
